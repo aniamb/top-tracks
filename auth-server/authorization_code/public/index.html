@@ -19,7 +19,7 @@
   <body>
     <div class="container">
       <div id="login">
-        <a href="/login" class="btn btn-primary">Log in with Spotify</a>
+        <a href="/login" class="btn btn-success">Log in with Spotify</a>
       </div>
       <div id="loggedin">
         <div id="user-profile">
@@ -102,7 +102,7 @@
             });
 
             $.ajax({
-                url: 'https://api.spotify.com/v1/me',
+                url: 'https://api.spotify.com/v1/me/top/tracks?time_range=short_term',
                 headers: {
                   'Authorization': 'Bearer ' + access_token
                 },

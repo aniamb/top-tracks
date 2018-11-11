@@ -91,27 +91,35 @@ class App extends Component {
   render() {
     return (
 	 <div className="App">
-	<br></br>
+	 	<h1> Top Tunes </h1>
      	<a href='http://localhost:8888'> Login to Spotify </a>
-	<br></br>
 	<div className = "Tracks">
 		#1: {this.state.topTracks.name} - {this.state.topTracks.artist}
 			<br></br>
+			<br></br>
 		#2: {this.state.topTracks2.name} - {this.state.topTracks2.artist}
+			<br></br>
 			<br></br>
 		#3: {this.state.topTracks3.name} - {this.state.topTracks3.artist}
 			<br></br>
+			<br></br>
 		#4: {this.state.topTracks4.name} - {this.state.topTracks4.artist}
+			<br></br>
 			<br></br>
 		#5: {this.state.topTracks5.name} - {this.state.topTracks5.artist}
 			<br></br>
+			<br></br>
 		#6: {this.state.topTracks6.name} - {this.state.topTracks6.artist}
+			<br></br>
 			<br></br>
 		#7: {this.state.topTracks7.name} - {this.state.topTracks7.artist}
 			<br></br>
+			<br></br>
 		#8: {this.state.topTracks8.name} - {this.state.topTracks8.artist}
 			<br></br>
+			<br></br>
 		#9: {this.state.topTracks9.name} - {this.state.topTracks9.artist}
+			<br></br>
 			<br></br>
 		#10: {this.state.topTracks10.name} - {this.state.topTracks10.artist}
 			<br></br>

@@ -1,8 +1,32 @@
+@font-face {
+  font-family: quicksand;
+  src: url(fonts/quicksand.otf);
+}
+
+@font-face {
+  font-family: theboldfont;
+  src: url(fonts/theboldfont.ttf);
+}
+
+@font-face {
+  font-family: swistblnk;
+  src: url(fonts/swistblnk.ttf);
+}
+
 .App {
   text-align: center;
-  padding: 70px 0;
   font-size: 20px;
-  
+  font-family: quicksand;
+}
+
+.App button {
+	background-color: white;
+	font-family: quicksand;
+	border: none;
+	padding: 15px 32px;
+	font-size: 16px;
+	border-radius: 8px;
+
 }
 
 
@@ -11,10 +35,16 @@
   height: 40vmin;
 }
 
+.App h1 {
+	font-family: swistblnk;
+	font-size: 80px;
+}
+
 .Tracks {
 	color: black;
 	padding: 70px 0;
-	font-size: 25px;
+	font-size: 15px;
+	font-family: quicksand;
 
 }
 
