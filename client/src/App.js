@@ -40,8 +40,10 @@ class App extends Component {
     }
     return hashParams;
   }
+
+
   getTopTracks() {
-  spotifyApi.getMyTopTracks()
+  spotifyApi.getMyTopTracks({"time_range": "short_term"})
  .then((response) => {
    this.setState({
      topTracks: {
