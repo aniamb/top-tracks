@@ -16,7 +16,7 @@ class App extends Component {
 	}
     this.state = {
 	loggedIn: token ? true : false,
-	topTracks: {name: 'not checked', artist:'unknown'}
+	topTracks: {name: 'not checked'}
     }
   }
 
@@ -32,7 +32,7 @@ class App extends Component {
     return hashParams;
   }
   getTopTracks() {
- spotifyApi.getMyTopTracks()
+  spotifyApi.getMyTopTracks()
  .then((response) => {
    this.setState({
      topTracks: {
@@ -48,9 +48,6 @@ class App extends Component {
      	<a href='http://localhost:8888'> Login to Spotify </a>
 	<div>
 		Top Tracks: {this.state.topTracks.name}
-	</div>
-	<div>
-		Top Artists: {this.state.topTracks.artist}
 	</div>
 	{ this.state.loggedIn &&
 		<button onClick={() => this.getTopTracks()}>
