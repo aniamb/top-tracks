@@ -93,7 +93,8 @@ class App extends Component {
   render() {
     return (
 	 <div className="App">
-	 	<h1> Top Tunes </h1>
+	 	<h1> top tunes </h1>
+    <p> -your top ten tracks this past month- </p>
      	<a href='http://localhost:8888'> Login to Spotify </a>
 	<div className = "Tracks">
 		#1: {this.state.topTracks.name} - {this.state.topTracks.artist}
