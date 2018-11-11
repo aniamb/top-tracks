@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   padding: 70px 0;
+  font-size: 20px;
+  
 }
 
 
@@ -12,7 +14,7 @@
 .Tracks {
 	color: black;
 	padding: 70px 0;
-	
+	font-size: 25px;
 
 }
 
@@ -29,6 +31,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.button {
+	background-color: #ccf2ff;
+	border: 2px solid black;
 }
 
 @keyframes App-logo-spin {
